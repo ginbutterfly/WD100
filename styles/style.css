@@ -1,0 +1,21 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	background-position: fixed;
+	background: url("../images/heart_bkgrd.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+	font-family: "Arial", sans-serif;
+	background-color: #f5f5d6;
+}
+
+h1 {
+	color: #9900cc;
+	margin: auto 0;
+    font-size:24px;
+    text-align: center;
+	
+}
+
