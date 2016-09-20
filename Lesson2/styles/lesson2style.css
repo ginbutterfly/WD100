@@ -1,0 +1,68 @@
+body {
+    background-color:  ivory;
+}
+
+p {
+	color: brown;
+	font-family: "Arial", sans-serif;
+
+}
+
+h1 {
+	color: firebrick;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+	font-family: "Helvetica", sans-serif;
+	text-align: left;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.nice-title {
+	color: firebrick;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+	font-style: italic;
+}
+
+#elite-title {
+	text-align: left;
+  	font-size: 30px;
+  	color: indianred;
+}
+
+.paragraph {
+	color: darkviolet;
+	background-color: cornflowerblue;
+	font-size: 150%; 
+	line-height: 25px;
+
+}
+
+.anotherone {
+	color: darkviolet;
+	background-color: floralwhite;
+	font-size: 150%; 
+}
+
+#yummy {
+	color: blue;
+	font-style: oblique;
+	font-size: 110%; 
+	padding: 20px;
+
+}
+
+.allthefood {
+	color: indigo;
+	font-style: italic;
+	padding: 15px;
+
+}

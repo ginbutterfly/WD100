@@ -1,0 +1,27 @@
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.col-left, .col-right, .col-middle {
+	float: left;
+	width: 33%;
+	height: 500px;
+	padding: 25px;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.col-left, .col-right {
+	background-color: orchid;
+
+}
+
+.col-middle {
+	background-color: skyblue;
+}
+

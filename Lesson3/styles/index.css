@@ -1,0 +1,43 @@
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+.col-left, .col-right {
+	float: left;
+	width: 50%;
+	height: 800px;
+	padding: 25px;
+	background-color: lavender;
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.article {
+	padding: 15px;
+}
+
+.main-content {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: lavender;
+}
+
+.fixed-bar {
+  position: fixed;
+  top: 100px;
+  right: 0;
+  padding: 15px;
+  background-color: gainsboro;
+  border: 1px solid black;
+}
+
+.fixed-bar a {
+  display: block;
+}
+

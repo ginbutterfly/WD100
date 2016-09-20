@@ -1,0 +1,19 @@
+
+.wrapper {
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+
+}
+
+img {
+	float: left;
+	margin-right: 75px;
+	margin-bottom: 75px;
+	height: 250px;
+ 	display: block;
+}
+
