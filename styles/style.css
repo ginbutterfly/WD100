@@ -2,12 +2,20 @@ html {
 	min-height: 100%;
 }
 
+header {
+	float: right;
+	margin: 0px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	clear: all;
+}
+
 body {
 	background-position: fixed;
 	background: url("../images/heart_bkgrd.jpg");
     background-repeat: no-repeat; 
     background-size: cover;
-	font-family: "Arial", sans-serif;
+	font-family: "Tahoma", sans-serif;
 	background-color: #f5f5d6;
 }
 
@@ -16,6 +24,32 @@ h1 {
 	margin: auto 0;
     font-size:24px;
     text-align: center;
-	
 }
 
+#container {
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+    height: 1000px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.pages {
+	float: right;
+	font-size: 18px;
+	text-align: left;
+}
+.pages li {
+	list-style: none;
+	padding-right: 25px;
+}
+
+.assignments {
+	
+
+}
+
+.assignments li {
+	list-style: none;
+}
