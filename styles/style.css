@@ -26,6 +26,11 @@ h1 {
     text-align: center;
 }
 
+#lesson4 {
+	color: #9900cc;
+
+}
+
 #container {
     position: relative;
     margin: 0 auto;
@@ -45,6 +50,10 @@ h1 {
 	padding-right: 25px;
 }
 
+.pagelinks {
+
+}
+
 .assignments {
 	
 
@@ -53,3 +62,24 @@ h1 {
 .assignments li {
 	list-style: none;
 }
+
+.social a:hover {
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.social img {
+	width: 48px; 
+	height: 48px; 
+	padding: 5px;
+}
+
+.social li {
+	list-style: none;
+	display: block;
+	margin:0px;
+	
+}
+
+
