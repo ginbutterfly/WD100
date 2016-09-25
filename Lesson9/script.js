@@ -68,27 +68,38 @@ $(document).ready(function() {
   }
 
   function changeBackground() {
+    
     var currentBackgroundColor = $("body").css("backgroundColor");
+    // background color property 
 
-    if (currentBackgroundColor === "rgb(255, 127, 80)") {
-      $("body").css("backgroundColor", "lightgrey");
-      } else {
-        $("body").css("backgroundColor", "coral");
-      } 
+    if (currentBackgroundColor === "rgb(240, 128, 128)") { // light coral
+      $("body").css("backgroundColor", "lightgray");
+    } else {
+      $("body").css("backgroundColor", "lightcoral");
+    }
+
+    setTimeout(changeBackground, 1500000); // 5 minutes
   }
 
-  setTimeout(changeBackground, 1500000) // change to 5 minutes instead of 5 seconds
+  var counter = 0;
+  // sets counter at 0
 
-  // function changeSize(i) {
-  //    for (fonts[i] = 0) {
-  //     $("#txt").css({i});
+  function changeFontSize() {
+    var fontSizes = ["40px", "14px", "16px", "20px"];
+    // font size options
 
-  //    }
+    $("body").css("fontSize", fontSizes[counter]); // changes fontsize to position in array per counter
 
-  //   }
-
-  // }
+    counter = counter + 1; // changes counter to next number for next array position
+    if (counter > 3) { 
+      counter = 0; //array only goes up to 3 so have to change it back to zero
+    }
+    
+    setTimeout(changeFontSize, 5000); // should be 1 hour, but this is easier to test
+  }
 
   startTime();
+  changeBackground();
+  changeFontSize();
   
 });
