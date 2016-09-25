@@ -40,30 +40,44 @@ h1 {
     box-sizing: border-box;
 }
 
+#container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 750px;
+    height: 1000px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
 .pages {
 	float: right;
 	font-size: 18px;
 	text-align: left;
 }
+
 .pages li {
-	list-style: none;
-	padding-right: 25px;
+	list-style-type: none;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	margin: 0;
 }
 
 .pagelinks {
-
+	display: block;
+	width: 150px;
+    text-align: center;
 }
 
-.assignments {
+/*.assignments {
 	
 
-}
+}*/
 
 .assignments li {
 	list-style: none;
 }
 
-.social a:hover {
+.social {
 	box-sizing: border-box;
 	border-radius: 5px;
 	padding: 5px;
@@ -72,14 +86,45 @@ h1 {
 .social img {
 	width: 48px; 
 	height: 48px; 
-	padding: 5px;
+	padding-right: 5px;
 }
 
 .social li {
 	list-style: none;
 	display: block;
 	margin:0px;
-	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
+#about {
+	color: #660033;
+}
 
+.img-post {
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    clear: all;
+}
+
+.img-sanrio {
+    float: right;
+    width: 100px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+    clear: all;
+               
+      }
+
+.img-emma {
+	float: left;
+    height: 220px;
+    margin-left: 10px;
+    clear: all;
+}
+
+.paragraph {
+	padding-bottom: 50px;
+
+}
