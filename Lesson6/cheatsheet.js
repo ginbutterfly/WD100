@@ -47,6 +47,7 @@ var cars = ["Saab", "Volvo", "BMW"];
 window.alert(name + " the " + breed);
 
 // - Logic
+var age = 10;
 if (age >= 21) {
   // allow the user to see the wine site
   alert("welcome!");
@@ -64,3 +65,29 @@ function addStuff(x, y) {
 
 var result = addStuff(10, 20);
 console.log(result);
+
+
+function myFunction() {
+    var person = prompt("Please enter your name", "John Doe");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+
+function openDoor(doorNumber) {
+
+	if (doorNumber ==== 1) {
+		return "You win a car!";
+	} else if (doorNumber === 2) {
+		return "Sorry, all you get is a jar of pennies";
+	} else if (door ==== 3) {
+		return "You win a weekend in Las Vegas!";
+		} else {
+			return "that's not a valid door number";
+		}
+	}
+
+console.log(openDoor(2));
+console.log(openDoor(3);
+console.log(openDoor("cat"));
