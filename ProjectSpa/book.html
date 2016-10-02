@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Online</title>
+		
+	<link rel="stylesheet" type="text/css" href="CSS/services.css">
+
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="CSS/book.css">
+
+	<!-- <div id="jar"></div>
+	<div class="links"></div>
+	 -->
+</head>
+
+<body>
+	
+	<nav>
+		<div id="logo"><img src="images/logo-1.png"></div>
+		<ul class="links">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Services</a> </li>
+		
+ 		<li class="left"><a href="#">About</a></li>
+		<li><a href="#">Book</a> </li>
+		</ul>
+	</nav>
+
+	<div class = "space">
+		
+
+
+	</div>
+	<header>
+		<h1>Book Online</h1>
+	</header>
+
+
+	<div class = "box">
+
+	<h4>Book Appointments</h4>
+
+	<p>Please select your desired services, date and time. We'll respond shortly to confirm your reservation. Thank you for being kind to yourself, to others and to our environment!
+
+	Appointments are held with a credit card. At the time of service, you can alternatively use a gift certificate. The full service fee is charged for cancellations or no-shows without 24 hour notice.</p>
+
+	<!-- <h4>Choose Services</h4> -->
+
+	<form><!-- First Name -->
+		<label for="fname">First Name:</label>
+  		<input type="text" id="fname" name="fname">
+  		<label for="lname">Last Name:</label>
+  		<input type="text" id="lname" name="lname">
+
+  		<label for="Services">Services</label>
+    	<select id="Services" name="Services">
+      		<option value="GSF1">Green Signature Facial - 30 minutes </option>
+      		<option value="GSF2">Green Signature Facial - 60 minutes</option>
+      		<option value="PDF1">Probiotic Detox Facial - 30 minutes</option>
+      		<option value="PDF2">Probiotic Detox Facial - 60 minutes</option>
+      		<option value="CARF2">Calm Anti-Redness Facial - 60 Minutes</option>
+      		<option value="RejAAF">Rejuvenation Anti-Aging Facial - 60 minutes</option>
+      		<option value="HF"> HydraFacial - See specialist</option>
+        
+    </select>
+
+    <div class = "clear"></div>
+
+      <form action="action_page.php"><br>
+          <label for="SelectAppoint">Appointment date</label>    
+            <input type="date" name="appointmentdate" min="2015-12-31"><br><br>
+      
+      <form>Select a time:
+  			<input type="time" name="usr_time">
+	</form>
+      
+          <button class = "submit">SUBMIT</button> 
+
+      </form>
+
+  	
+  	</div>
+
+
+	
+
+
+
+
+</body>
+
+</html>

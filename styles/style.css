@@ -2,6 +2,10 @@ html {
 	min-height: 100%;
 }
 
+li {
+	padding-bottom: 10px;
+}
+
 header {
 	float: right;
 	margin: 0px;

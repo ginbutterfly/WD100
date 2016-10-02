@@ -1,0 +1,218 @@
+
+* {
+
+	box-sizing: border-box;
+
+}
+
+.home{
+	width:100%;
+	background-image: url("../images/bamboo.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 575px;
+	background-size: cover;
+	padding-top: 75px;
+
+}
+
+ .gallery{
+	width:100%;
+	background-image: url("../images/rose.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
+
+.services{
+	width:100%;
+	background-image: url("../images/leaves.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
+
+.book{
+	width:100%;
+	background-image: url("../images/water.jpg");
+	background-attachment: fixed;
+	position: relative;
+	height: 500px;
+	background-size: cover;
+
+}
+
+header h1{
+
+padding-top: 230px;
+text-align: center;
+font-family: 'Oxygen', sans-serif;
+font-size: 50px;
+color:#303a35;
+}
+
+nav {
+	background-color:#303a35;
+	position: fixed; 
+	height: 75px;
+	top:-250px;
+	width: 100%;
+	z-index: 100001;
+	color: white;
+	margin: auto;
+
+}
+
+.fix {
+	
+	background-color:#303a35;
+	position: fixed; 
+	height: 75px;
+	top:0px;
+	width: 100%;
+	z-index: 100001;
+	color: white;
+	margin: auto;
+
+}
+
+.links {
+	text-align: center;
+	height: 74px;
+	padding-top: 17px;
+	/* position: absolute;*/
+}
+
+p {
+font-family: 'Oxygen', sans-serif;
+font-size: 12px;
+color:#303a35;
+
+}
+
+h1 {
+font-family: 'Oxygen', sans-serif;
+font-size: 25px;
+color:#303a35;
+
+}
+
+.email h2 {
+font-family: 'Oxygen', sans-serif;
+font-size: 20px;
+color:#303a35;
+
+}
+
+
+
+.left {
+	margin-left: 114px;
+
+}
+
+.email{
+	display: block;
+	background-color: #999966;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+#logo {
+	/*top:5px;
+	left:50%;*/
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto;
+	width: 114px;
+	position: absolute;
+	z-index: 20000;
+}
+
+.links li {
+	display: inline-block;
+
+
+}
+
+ul {
+	padding:0px;
+}
+
+.email input{
+	border:0px;
+	color: #999966;
+	padding: 5px;
+	transition: width 1s ease;  
+	width:100px;
+
+
+}
+
+.email input:focus {
+	background-color: #e8e6b3;
+	color: #303a35;
+	padding: 5px;
+	width:200px;
+}
+
+.email button{
+	border:0px;
+	color: #fff;
+	padding: 5px;
+	background-color: #303a35;
+}
+
+.links li a {
+
+	line-height: 1px;
+	text-decoration: none; 
+	padding-right: 20px; 
+	font-size:15px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #dadfe1;
+	transition: 2s ease;  
+
+
+}
+
+.links li a:hover {
+
+	line-height: 1px;
+	text-decoration: none; 
+	padding-right: 20px; 
+	font-size:15px;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #999966;
+
+}
+
+.float {
+	float: right;
+
+}
+
+
+body {
+	margin: 0px;
+	background-color: #f4f3df;
+}
+
+#jar {
+	width: 925px;
+	height:3000px;
+	margin: 50px auto;
+	padding:50px;
+
+}
